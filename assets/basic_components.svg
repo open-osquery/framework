@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="496">
+    <style>line, path, circle,rect,polygon {
+                          stroke: black;
+                          stroke-width: 2;
+                          stroke-opacity: 1;
+                          fill-opacity: 1;
+                          stroke-linecap: round;
+                          stroke-linejoin: miter;
+                        }
+
+                    text {
+                        fill: black;
+                        }
+                        rect.backdrop{
+                            stroke: none;
+                            fill: white;
+                        }
+                        .broken{
+                            stroke-dasharray: 8;
+                        }
+                        .filled{
+                            fill: black;
+                        }
+                        .bg_filled{
+                            fill: white;
+                        }
+                        .nofill{
+                            fill: white;
+                        }
+
+                        text {
+                         font-family: monospace;
+                         font-size: 14px;
+                        }
+
+                        .end_marked_arrow{
+                            marker-end: url(#arrow);
+                         }
+                        .start_marked_arrow{
+                            marker-start: url(#arrow);
+                         }
+
+                        .end_marked_diamond{
+                            marker-end: url(#diamond);
+                         }
+                        .start_marked_diamond{
+                            marker-start: url(#diamond);
+                         }
+
+                        .end_marked_circle{
+                            marker-end: url(#circle);
+                         }
+                        .start_marked_circle{
+                            marker-start: url(#circle);
+                         }
+
+                        .end_marked_open_circle{
+                            marker-end: url(#open_circle);
+                         }
+                        .start_marked_open_circle{
+                            marker-start: url(#open_circle);
+                         }
+
+                        .end_marked_big_open_circle{
+                            marker-end: url(#big_open_circle);
+                         }
+                        .start_marked_big_open_circle{
+                            marker-start: url(#big_open_circle);
+                         }
+
+                         
+                        </style>
+    <defs>
+        <marker id="arrow" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <polygon points="0,0 0,4 4,2 0,0"></polygon>
+        </marker>
+        <marker id="diamond" viewBox="-2 -2 8 8" refX="4" refY="2" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <polygon points="0,2 2,0 4,2 2,4 0,2"></polygon>
+        </marker>
+        <marker id="circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="filled"></circle>
+        </marker>
+        <marker id="open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="2" class="bg_filled"></circle>
+        </marker>
+        <marker id="big_open_circle" viewBox="0 0 8 8" refX="4" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+            <circle cx="4" cy="4" r="3" class="bg_filled"></circle>
+        </marker>
+    </defs>
+    <rect class="backdrop" x="0" y="0" width="840" height="496"></rect>
+    <text x="162" y="12" class="">compute</text>
+    <text x="42" y="60" class="">ownership</text>
+    <text x="42" y="76" class="">info</text>
+    <polygon points="128,68 120,72 128,76" class="filled"></polygon>
+    <line x1="148" y1="72" x2="148" y2="160" class="solid end_marked_arrow"></line>
+    <line x1="236" y1="72" x2="236" y2="160" class="solid end_marked_arrow"></line>
+    <line x1="340" y1="72" x2="340" y2="288" class="solid end_marked_arrow"></line>
+    <line x1="380" y1="80" x2="380" y2="304" class="solid"></line>
+    <polygon points="72,108 76,96 80,108" class="filled"></polygon>
+    <line x1="152" y1="152" x2="232" y2="152" class="solid"></line>
+    <line x1="180" y1="160" x2="180" y2="224" class="solid"></line>
+    <line x1="188" y1="160" x2="188" y2="224" class="solid"></line>
+    <line x1="308" y1="200" x2="308" y2="288" class="solid end_marked_arrow"></line>
+    <line x1="628" y1="200" x2="736" y2="200" class="solid end_marked_arrow"></line>
+    <line x1="312" y1="280" x2="336" y2="280" class="solid"></line>
+    <line x1="356" y1="312" x2="480" y2="312" class="solid end_marked_arrow"></line>
+    <polygon points="664,308 656,312 664,316" class="filled"></polygon>
+    <line x1="60" y1="368" x2="60" y2="416" class="solid end_marked_arrow"></line>
+    <text x="746" y="428" class="">long</text>
+    <text x="786" y="428" class="">term</text>
+    <line x1="628" y1="440" x2="736" y2="440" class="solid end_marked_arrow"></line>
+    <text x="746" y="444" class="">storage</text>
+    <text x="426" y="92" class="">orchestrator</text>
+    <text x="42" y="188" class="">Event</text>
+    <text x="90" y="188" class="">collector</text>
+    <text x="42" y="204" class="">agent</text>
+    <path d="M 88,192 A 16,16 0,0,0 88,208" class="nofill"></path>
+    <text x="90" y="204" class="">s</text>
+    <path d="M 96,192 A 16,16 0,0,1 96,208" class="nofill"></path>
+    <text x="202" y="188" class="">log</text>
+    <text x="202" y="204" class="">annotator</text>
+    <text x="762" y="204" class="">alert</text>
+    <text x="218" y="316" class="">log</text>
+    <text x="250" y="316" class="">forwarder</text>
+    <text x="498" y="316" class="">log</text>
+    <text x="530" y="316" class="">collector</text>
+    <text x="498" y="332" class="">indexer</text>
+    <text x="610" y="316" class="">and</text>
+    <text x="754" y="316" class="">report</text>
+    <text x="18" y="444" class="">Config</text>
+    <text x="74" y="444" class="">server</text>
+    <g>
+        <line x1="4" y1="24" x2="380" y2="24" class="solid"></line>
+        <line x1="4" y1="24" x2="4" y2="360" class="solid"></line>
+        <line x1="380" y1="24" x2="380" y2="64" class="solid"></line>
+        <line x1="380" y1="320" x2="380" y2="360" class="solid"></line>
+        <line x1="4" y1="360" x2="380" y2="360" class="solid"></line>
+    </g>
+    <g>
+        <line x1="28" y1="40" x2="124" y2="40" class="solid"></line>
+        <line x1="28" y1="40" x2="28" y2="104" class="solid"></line>
+        <line x1="124" y1="40" x2="124" y2="64" class="solid"></line>
+        <line x1="28" y1="104" x2="72" y2="104" class="solid"></line>
+    </g>
+    <g>
+        <line x1="404" y1="56" x2="540" y2="56" class="solid"></line>
+        <line x1="404" y1="56" x2="404" y2="120" class="solid"></line>
+        <line x1="540" y1="56" x2="540" y2="120" class="solid"></line>
+        <line x1="128" y1="72" x2="404" y2="72" class="solid"></line>
+        <line x1="404" y1="120" x2="540" y2="120" class="solid"></line>
+    </g>
+    <g>
+        <line x1="124" y1="80" x2="124" y2="104" class="solid"></line>
+        <line x1="80" y1="104" x2="124" y2="104" class="solid"></line>
+    </g>
+    <g>
+        <line x1="76" y1="112" x2="76" y2="152" class="solid"></line>
+        <line x1="20" y1="152" x2="144" y2="152" class="solid"></line>
+        <line x1="20" y1="152" x2="20" y2="232" class="solid"></line>
+        <line x1="240" y1="152" x2="292" y2="152" class="solid"></line>
+        <line x1="292" y1="152" x2="292" y2="232" class="solid"></line>
+        <line x1="292" y1="200" x2="308" y2="200" class="solid"></line>
+        <line x1="20" y1="232" x2="292" y2="232" class="solid"></line>
+        <line x1="60" y1="232" x2="60" y2="352" class="solid"></line>
+    </g>
+    <g>
+        <line x1="732" y1="168" x2="828" y2="168" class="solid"></line>
+        <line x1="732" y1="168" x2="732" y2="192" class="solid"></line>
+        <line x1="828" y1="168" x2="828" y2="232" class="solid"></line>
+        <line x1="732" y1="208" x2="732" y2="232" class="solid"></line>
+        <line x1="732" y1="232" x2="828" y2="232" class="solid"></line>
+    </g>
+    <g>
+        <line x1="628" y1="200" x2="628" y2="264" class="solid"></line>
+        <line x1="476" y1="264" x2="660" y2="264" class="solid"></line>
+        <line x1="476" y1="264" x2="476" y2="304" class="solid"></line>
+        <line x1="660" y1="264" x2="660" y2="304" class="solid"></line>
+    </g>
+    <g>
+        <line x1="172" y1="280" x2="304" y2="280" class="solid"></line>
+        <line x1="172" y1="280" x2="172" y2="344" class="solid"></line>
+        <line x1="344" y1="280" x2="356" y2="280" class="solid"></line>
+        <line x1="356" y1="280" x2="356" y2="344" class="solid"></line>
+        <line x1="172" y1="344" x2="356" y2="344" class="solid"></line>
+    </g>
+    <g>
+        <line x1="732" y1="280" x2="828" y2="280" class="solid"></line>
+        <line x1="732" y1="280" x2="732" y2="344" class="solid"></line>
+        <line x1="828" y1="280" x2="828" y2="344" class="solid"></line>
+        <line x1="664" y1="312" x2="732" y2="312" class="solid"></line>
+        <line x1="732" y1="344" x2="828" y2="344" class="solid"></line>
+    </g>
+    <g>
+        <line x1="476" y1="320" x2="476" y2="360" class="solid"></line>
+        <line x1="660" y1="320" x2="660" y2="360" class="solid"></line>
+        <line x1="476" y1="360" x2="660" y2="360" class="solid"></line>
+        <line x1="628" y1="360" x2="628" y2="440" class="solid"></line>
+    </g>
+    <g>
+        <line x1="4" y1="408" x2="56" y2="408" class="solid"></line>
+        <line x1="4" y1="408" x2="4" y2="472" class="solid"></line>
+        <line x1="64" y1="408" x2="132" y2="408" class="solid"></line>
+        <line x1="132" y1="408" x2="132" y2="472" class="solid"></line>
+        <line x1="4" y1="472" x2="132" y2="472" class="solid"></line>
+    </g>
+    <g>
+        <line x1="732" y1="408" x2="828" y2="408" class="solid"></line>
+        <line x1="732" y1="408" x2="732" y2="432" class="solid"></line>
+        <line x1="828" y1="408" x2="828" y2="472" class="solid"></line>
+        <line x1="732" y1="448" x2="732" y2="472" class="solid"></line>
+        <line x1="732" y1="472" x2="828" y2="472" class="solid"></line>
+    </g>
+</svg>
