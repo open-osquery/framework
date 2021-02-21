@@ -4,7 +4,8 @@
 1. [Introduction](docs/intro.md)
 2. [Data collection agent](docs/agent.md)
 3. [Configuration build and distribution](docs/config.md)
-5. [Log aggregation and notification channels](docs/action.md)
+4. [Log aggregation and notification channels](docs/action.md)
+5. [Distributed Queries](docs/distributed.md)
 
 ## Introduction
 The [Introduction](docs/intro.md) describes the use case that the project wants
